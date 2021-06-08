@@ -63,4 +63,15 @@ assign_3.addEventListener("click", (e) => {
   // extends(A, B);   - extends functionality in ES5
 
   console.log("Assignment 3");
+  //   Edit the functions here
+  function first() {
+    this.i = 1;
+    this.j = 2;
+  }
+  const fun = new first();
+  console.log(fun);
+  console.log(...first);
+
+  function second() {}
+  function extend(fn1, fn2) {}
 });
